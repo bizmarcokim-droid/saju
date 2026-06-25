@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "@/i18n/routing";
+import { HeroArtwork } from "@/components/BrandArtwork";
 import type { Product, Locale } from "@/types";
 
 export default function HomeHero({ products, locale }: { products: Product[]; locale: Locale }) {
@@ -29,12 +30,10 @@ export default function HomeHero({ products, locale }: { products: Product[]; lo
         className="group block overflow-hidden bg-night shadow-[0_18px_42px_rgba(30,20,70,0.22)] sm:mx-4 sm:rounded-[2rem]"
       >
         <div className="relative aspect-[4/5] w-full overflow-hidden bg-[#120d24] sm:aspect-[16/8]">
-          <img
-            src={`/images/hero-${active.slug}.svg`}
-            alt={title}
-            className="h-full w-full object-cover transition duration-700 group-hover:scale-[1.018]"
-          />
-          <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent p-5 pt-16 text-white sm:p-7">
+          <div className="h-full w-full transition duration-700 group-hover:scale-[1.018]">
+            <HeroArtwork product={active} locale={locale} />
+          </div>
+          <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/72 via-black/22 to-transparent p-5 pt-16 text-white sm:p-7">
             <p className="mb-1 text-[11px] font-bold tracking-[0.24em] text-white/70">
               {locale === "ko" ? "천기누설" : "CHEONGI"}
             </p>
