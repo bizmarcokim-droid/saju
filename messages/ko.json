@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "brand": "천기누설",
+    "login": "로그인",
+    "categories": {
+      "all": "전체",
+      "saju": "사주",
+      "ziwei": "자미두수",
+      "tarot": "타로",
+      "free": "무료",
+      "others": "기타"
+    }
+  },
+  "bottomNav": {
+    "home": "홈",
+    "today": "오늘의 운세",
+    "search": "검색",
+    "library": "보관함"
+  },
+  "home": {
+    "popular": "🔥 지금 인기 운세",
+    "love": "💌 썸, 연애, 재회",
+    "reviews": "✨ 실시간 유저 리뷰",
+    "justNow": "방금 전"
+  },
+  "fortune": {
+    "birthLabel": "생년월일",
+    "submit": "운세 보기",
+    "needBirth": "생년월일을 먼저 입력해 주세요.",
+    "loading": "운세를 풀이하는 중...",
+    "free": "무료",
+    "priceSuffix": "원",
+    "notFound": "상품을 찾을 수 없어요.",
+    "saved": "보관함에 저장했어요 ✓",
+    "timeLabel": "태어난 시각 (선택)",
+    "timeHint": "2시간 단위 시진으로 골라주세요. 모르면 '모름' (시주만 생략)",
+    "nameLabel": "이름",
+    "namePlaceholder": "이름을 입력하세요",
+    "genderLabel": "성별",
+    "male": "남성",
+    "female": "여성",
+    "yourInfo": "내 정보",
+    "partnerInfo": "상대방 정보",
+    "needRequired": "이름·성별·생년월일을 모두 입력해 주세요.",
+    "timeUnknown": "모름 / 선택 안 함",
+    "surnameLabel": "성씨",
+    "surnamePlaceholder": "예: 김, 이, 박",
+    "namingInfo": "아기 정보 (사주 기준)"
+  },
+  "category": {
+    "empty": "아직 이 카테고리에 상품이 없어요."
+  },
+  "today": {
+    "title": "오늘의 운세",
+    "score": "오늘의 운세 점수",
+    "luckyColor": "행운의 색",
+    "luckyNumber": "행운의 숫자",
+    "colors": [
+      "빨강",
+      "주황",
+      "노랑",
+      "초록",
+      "파랑",
+      "남색",
+      "보라"
+    ],
+    "messages": [
+      "작은 친절이 큰 인연으로 돌아오는 하루예요.",
+      "서두르지 않을수록 일이 잘 풀립니다.",
+      "오늘은 직감을 믿어도 좋은 날이에요.",
+      "미뤄둔 연락을 먼저 건네보세요.",
+      "지갑을 잠시 닫아두면 더 좋은 기회가 옵니다."
+    ]
+  },
+  "search": {
+    "title": "검색",
+    "placeholder": "사주, 궁합, 타로 검색...",
+    "prompt": "찾고 싶은 운세를 검색해보세요.",
+    "noResults": "검색 결과가 없어요."
+  },
+  "library": {
+    "title": "보관함",
+    "empty": "아직 저장된 운세가 없어요. 운세를 보면 여기에 모입니다.",
+    "clear": "전체 삭제",
+    "birthLabel": "생년월일"
+  },
+  "result": {
+    "empty": "표시할 결과가 없어요. 운세를 먼저 봐주세요.",
+    "back": "홈으로",
+    "download": "결과 다운로드",
+    "summaryOnly": "(AI 키 미설정 — 사주 요약만 표시됨)",
+    "disclaimer": "본 풀이는 참고·오락용이며 중요한 결정은 신중히 내리세요."
+  },
+  "tarot": {
+    "questionLabel": "질문 (선택)",
+    "questionPlaceholder": "무엇이 궁금하세요? (비워도 됩니다)",
+    "pickPrompt": "카드 3장을 골라주세요",
+    "pickHint": "마음이 가는 카드를 탭하세요. 고른 카드는 결과에서 공개됩니다.",
+    "reshuffle": "다시",
+    "needCards": "카드 3장을 모두 골라주세요.",
+    "submit": "운세 보기",
+    "loading": "카드를 읽는 중..."
+  }
+}

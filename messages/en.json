@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "brand": "ReadMySaju",
+    "login": "Sign in",
+    "categories": {
+      "all": "All",
+      "saju": "Saju",
+      "ziwei": "Zi Wei",
+      "tarot": "Tarot",
+      "free": "Free",
+      "others": "More"
+    }
+  },
+  "bottomNav": {
+    "home": "Home",
+    "today": "Today",
+    "search": "Search",
+    "library": "Library"
+  },
+  "home": {
+    "popular": "🔥 Trending now",
+    "love": "💌 Love & reunion",
+    "reviews": "✨ Live reviews",
+    "justNow": "just now"
+  },
+  "fortune": {
+    "birthLabel": "Date of birth",
+    "submit": "Read my fortune",
+    "needBirth": "Please enter your date of birth first.",
+    "loading": "Reading your fortune...",
+    "free": "Free",
+    "priceSuffix": "",
+    "notFound": "Product not found.",
+    "saved": "Saved to library ✓",
+    "timeLabel": "Birth time (optional)",
+    "timeHint": "Pick the 2-hour branch. Choose 'Unknown' to skip the hour pillar.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Enter your name",
+    "genderLabel": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "yourInfo": "Your info",
+    "partnerInfo": "Partner's info",
+    "needRequired": "Please enter name, gender, and date of birth.",
+    "timeUnknown": "Unknown / skip",
+    "surnameLabel": "Surname",
+    "surnamePlaceholder": "e.g. Kim, Lee, Park",
+    "namingInfo": "Child's info (for the chart)"
+  },
+  "category": {
+    "empty": "No products in this category yet."
+  },
+  "today": {
+    "title": "Today's Fortune",
+    "score": "Today's score",
+    "luckyColor": "Lucky color",
+    "luckyNumber": "Lucky number",
+    "colors": [
+      "Red",
+      "Orange",
+      "Yellow",
+      "Green",
+      "Blue",
+      "Indigo",
+      "Violet"
+    ],
+    "messages": [
+      "A small kindness comes back as a meaningful connection today.",
+      "The less you rush, the better things fall into place.",
+      "Today is a good day to trust your intuition.",
+      "Reach out first to someone you've been meaning to contact.",
+      "Keep your wallet closed today; a better chance is coming."
+    ]
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Search saju, compatibility, tarot...",
+    "prompt": "Search for the reading you're looking for.",
+    "noResults": "No results found."
+  },
+  "library": {
+    "title": "Library",
+    "empty": "Nothing saved yet. Your readings will collect here.",
+    "clear": "Clear all",
+    "birthLabel": "Birth date"
+  },
+  "result": {
+    "empty": "No result to show. Please get a reading first.",
+    "back": "Home",
+    "download": "Download result",
+    "summaryOnly": "(No AI key set — showing chart summary only)",
+    "disclaimer": "This reading is for reflection/entertainment; make important decisions with care."
+  },
+  "tarot": {
+    "questionLabel": "Question (optional)",
+    "questionPlaceholder": "What's on your mind? (optional)",
+    "pickPrompt": "Pick 3 cards",
+    "pickHint": "Tap the cards you're drawn to. They'll be revealed in your result.",
+    "reshuffle": "Reset",
+    "needCards": "Please pick all 3 cards.",
+    "submit": "Read the cards",
+    "loading": "Reading the cards..."
+  }
+}
