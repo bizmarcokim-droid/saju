@@ -1,7 +1,6 @@
 // ─────────────────────────────────────────────────────────────
 // 상품 책표지 카드
-// 가격/바로가기 문구 없이, 세로형 동양풍 일러스트 자체가 메인이 되도록 구성합니다.
-// 모바일에서는 가로 스크롤 리스트 안에서 사용됩니다.
+// 가격/버튼/설명을 제거하고, 일러스트 책표지 자체가 상품을 설명하도록 구성합니다.
 // ─────────────────────────────────────────────────────────────
 import { Link } from "@/i18n/routing";
 import type { Product, Locale } from "@/types";
@@ -18,12 +17,12 @@ export default function ProductCard({
   return (
     <Link
       href={`/fortune/${product.slug}`}
-      className="group block w-[164px] shrink-0 sm:w-[190px] lg:w-[210px]"
+      className="group block w-[156px] shrink-0 snap-start sm:w-[188px] lg:w-full"
       aria-label={locale === "ko" ? `${title} 상세보기` : `View ${title}`}
     >
-      <div className="relative aspect-[2/3] overflow-hidden rounded-[1.25rem] bg-white shadow-[0_10px_30px_rgba(30,20,70,0.14)] ring-1 ring-black/5 transition duration-300 group-hover:-translate-y-1 group-hover:shadow-[0_18px_42px_rgba(30,20,70,0.22)]">
+      <div className="relative aspect-[2/3] overflow-hidden rounded-[1.15rem] bg-[#f8f1e8] shadow-[0_10px_28px_rgba(28,18,62,0.14)] ring-1 ring-black/5 transition duration-300 group-hover:-translate-y-1 group-hover:shadow-[0_18px_42px_rgba(28,18,62,0.24)]">
         <img
-          src={`/images/${product.slug}.png`}
+          src={`/images/cover-${product.slug}.svg`}
           alt={title}
           className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.035]"
           loading="lazy"
